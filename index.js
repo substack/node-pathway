@@ -12,7 +12,7 @@ module.exports = function pathway (root, keys) {
             if ('boolean' === typeof key) {
                 return key;
             }
-            else if (ktype === 'function') {
+            else if ('function' === typeof key) {
                 return key(k, v)
             }
             else if (isRegExp(key)) {
