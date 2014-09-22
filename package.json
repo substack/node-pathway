@@ -1,29 +1,29 @@
 {
-    "name" : "pathway",
-    "description" : "trace key-paths through nested objects",
-    "version" : "0.1.2",
-    "repository" : {
-        "type" : "git",
-        "url" : "git://github.com/substack/node-pathway.git"
-    },
-    "main" : "index.js",
-    "keywords" : [
-        "path",
-        "traverse",
-        "object",
-        "deep"
-    ],
-    "scripts" : {
-        "test" : "tap test/*.js"
-    },
-    "dependencies" : {},
-    "devDependencies" : {
-        "tap" : "~0.4.3"
-    },
-    "license" : "MIT",
-    "author" : {
-        "name" : "James Halliday",
-        "email" : "mail@substack.net",
-        "url" : "http://substack.net"
-    }
+  "name": "pathway",
+  "description": "trace key-paths through nested objects",
+  "version": "0.1.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/node-pathway.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "path",
+    "traverse",
+    "object",
+    "deep"
+  ],
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^3.0.0"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  }
 }

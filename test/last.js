@@ -1,5 +1,5 @@
 var pathway = require('../');
-var test = require('tap').test;
+var test = require('tape');
 
 test('last element string', function (t) {
     var rows = [ { location: 'Oakland, CA' }, { location: 'Portland, OR' } ];

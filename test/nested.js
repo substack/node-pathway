@@ -1,5 +1,5 @@
 var pathway = require('../');
-var test = require('tap').test;
+var test = require('tape');
 
 test('object to array to object', function (t) {
     var obj = { rows : [ { x: 52 }, { x: 41 }, { y: 12 }, { x: 50 } ] };

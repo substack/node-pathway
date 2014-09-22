@@ -1,5 +1,5 @@
 var pathway = require('../');
-var test = require('tap').test;
+var test = require('tape');
 
 test('scan an array with nested elements', function (t) {
     var xs = [

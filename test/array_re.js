@@ -1,5 +1,5 @@
 var pathway = require('../');
-var test = require('tap').test;
+var test = require('tape');
 
 test('array regexp', function (t) {
     var obj = { rows : [ { xx: 52 }, { xxx: 41 }, { y: 12 }, { z: 50 } ] };

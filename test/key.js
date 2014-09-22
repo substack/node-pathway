@@ -1,5 +1,5 @@
 
-var test = require('tap').test
+var test = require('tape')
 var pkg = require('../package.json')
 
 var pathway = require('../')
@@ -14,7 +14,7 @@ test('path to a key', function (t) {
   var x =
     pathway(pkg, [true, {key: /[^\d]/}])
 
-  t.deepEqual(x, [ 'type', 'url', 'test', 'tap', 'name', 'email', 'url' ])
+  t.deepEqual(x, [ 'type', 'url', 'test', 'tape', 'name', 'email', 'url' ])
 
   console.log(x)
   t.end()

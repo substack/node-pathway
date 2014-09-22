@@ -1,5 +1,5 @@
 var pathway = require('../');
-var test = require('tap').test;
+var test = require('tape');
 
 test('use a function to determine keys', function (t) {
     var xs = [
