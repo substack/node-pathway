@@ -1,6 +1,6 @@
 {
   "name": "pathway",
-  "description": "trace key-paths through nested objects",
+  "description": "follow key-paths through nested objects",
   "version": "0.1.2",
   "repository": {
     "type": "git",
