@@ -16,6 +16,10 @@ test('path to a key', function (t) {
 
   t.deepEqual(x, [ 'type', 'url', 'test', 'tape', 'name', 'email', 'url' ])
 
-  console.log(x)
+  var x =
+    pathway(pkg, [true, {key: function (n) { return 'number' === typeof n }}])
+
+  t.deepEqual(x, [0, 1, 2, 3])
+
   t.end()
 })
