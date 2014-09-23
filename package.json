@@ -1,7 +1,7 @@
 {
   "name": "pathway",
   "description": "follow key-paths through nested objects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/substack/node-pathway.git"
